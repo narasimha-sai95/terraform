@@ -7,6 +7,7 @@ variable "usersage" {
 }
 
 
+
 output "printage" {
-  value = "age of sai is ${lookup(var.usersage,"sourav")}"
+  value = "age of sourav is ${lookup(var.usersage,"sourav")}"
 }
