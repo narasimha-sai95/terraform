@@ -1,13 +1,14 @@
 variable "usersage" {
   type = map
-  default = {
-    sai = 22
-    sourav = 28
-  }
+ default = ["sai","babu"]
+}
+
+variable "user" {
+  type = string
 }
 
 
 
 output "printage" {
-  value = "age of sourav is ${lookup(var.usersage,"sourav")}"
+  value = "age of ${var.user} is ${lookup(var.usersage,"${var.user}")}"
 }
