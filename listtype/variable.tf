@@ -1,4 +1,4 @@
 variable "g" {
   type = list
- default = ["sai","ashish","ishan"]
+ //default = ["sai","ashish","ishan"]
 }

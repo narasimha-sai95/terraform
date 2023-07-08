@@ -1,6 +1,9 @@
 variable "usersage" {
   type = map
- default = ["sai","babu"]
+ default ={
+  sai=20
+  babu=25
+ }
 }
 
 variable "user" {
