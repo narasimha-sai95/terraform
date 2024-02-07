@@ -3,7 +3,7 @@ output "first_block" {
 }
 output "secondblock"{
     value="hello from second block"
-}
+} 
 output "thirdblock"{
     value="hello from third block"
 }
